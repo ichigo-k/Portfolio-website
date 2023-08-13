@@ -1,0 +1,15 @@
+@use "../custom" as *;
+@use "../componets/mixins" as *;
+
+.menu{
+    @include gradient;
+
+    li{
+        padding: 0 0.7rem;
+
+        a{
+            color: $white;
+            font-weight: 600;
+        }
+    }
+}
